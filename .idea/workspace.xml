@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movies.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,9 @@
     &quot;accountId&quot;: &quot;01397d2d-caa3-4ef0-8f85-64efa24819d3&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -100,7 +107,7 @@
       <workItem from="1756394887089" duration="3078000" />
       <workItem from="1756462334776" duration="592000" />
       <workItem from="1756548469704" duration="594000" />
-      <workItem from="1757156030367" duration="18785000" />
+      <workItem from="1757156030367" duration="25092000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />

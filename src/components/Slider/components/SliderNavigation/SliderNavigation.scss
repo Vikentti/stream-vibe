@@ -1,5 +1,6 @@
 .slider-navigation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
   &--tile {
@@ -16,6 +17,7 @@
 
   &__pagination {
     display: flex;
+
     column-gap: 3px;
 
     &-bullet {
@@ -30,5 +32,12 @@
         background-color: var(--color-red-45);
       }
     }
+  }
+
+  &--abs-bottom {
+    position: absolute;
+    z-index: 1;
+    inset-inline: fluid-to-laptop(50, 40);
+    bottom: fluid-to-laptop(20, 16);
   }
 }
