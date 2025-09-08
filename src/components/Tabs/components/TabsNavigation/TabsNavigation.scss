@@ -5,10 +5,11 @@
   --tabsNavigationPadding: #{fluid-to-laptop(10, 8)};
 
   position: relative;
-  display: flex;
+  display: var(--tabsNavigationDisplay, flex);
   padding: var(--tabsNavigationPadding);
   border: var(--border);
   border-radius: var(--border-radius-m);
+  background-color: var(--color-black-06);
 
   @include laptop {
     border-radius: var(--border-radius-s);
@@ -32,7 +33,10 @@
   }
 
   &__button {
+    flex-grow: 1;
     position: relative;
+    display: inline-flex;
+    justify-content: center;
     padding: fluid-to-laptop(14, 12) fluid-to-laptop(24, 20) ;
     border-radius: var(--border-radius-m);
     transition-duration: var(--transition-duration);

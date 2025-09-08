@@ -6,12 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +115,10 @@
       <workItem from="1756462334776" duration="592000" />
       <workItem from="1756548469704" duration="594000" />
       <workItem from="1757156030367" duration="25092000" />
+      <workItem from="1757262081850" duration="9059000" />
+      <workItem from="1757278768410" duration="312000" />
+      <workItem from="1757350188006" duration="1396000" />
+      <workItem from="1757351616780" duration="7705000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />
@@ -166,5 +177,42 @@
     <MESSAGE value="new section == question/ accordion finished" />
     <MESSAGE value="new section- tabs, js tabs logic and baseComponent" />
     <option name="LAST_COMMIT_MESSAGE" value="new section- tabs, js tabs logic and baseComponent" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Categories/categoryItems.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Categories/categoryItems.js</url>
+          <line>140</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Collections/collectionGroups.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Collections/collectionGroups.js</url>
+          <line>66</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Collections/collectionGroups.js</url>
+          <line>322</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Collections/collectionGroups.js</url>
+          <line>377</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

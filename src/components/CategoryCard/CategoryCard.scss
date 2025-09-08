@@ -12,7 +12,7 @@
     border-radius: var(--border-radius-m);
   }
 
-  @include  hover {
+  @include hover {
     --categoryCardImagesGradientOpacity: 0;
 
     color: var(--color-white);
@@ -41,7 +41,6 @@
 
   &__image {
     width: 100%;
-    height: fluid(124, 68);
     object-fit: cover;
     border-radius: var(--border-radius-m);
 
@@ -58,6 +57,10 @@
   }
 
   &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: fluid-to-laptop(4, 2);
     font-size: inherit;
     font-weight: 600;
   }

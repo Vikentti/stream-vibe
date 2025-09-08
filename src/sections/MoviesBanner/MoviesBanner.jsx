@@ -40,9 +40,15 @@ const MoviesBanner = () => {
       </h1>
       <Slider
         sliderParams={{
-          slidesPerView: 1
+          slidesPerView: 1,
+          breakpoints: {
+            1024: {
+              allowTouchMove: false,
+            }
+          },
         }}
         navigationPosition="abs-bottom"
+        hasScrollbarOnMobile={false}
       >
         {movieCard.map((movieCard, index) => (
           <MovieBannerCard {...movieCard} key={index} />
