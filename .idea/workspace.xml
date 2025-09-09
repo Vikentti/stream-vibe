@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MoviesBanner/MoviesBanner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +17,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX Component folder.jsx.child.0" />
-        <option value="JSX Component folder" />
         <option value="JSX Component folder with styles.jsx.child.0" />
         <option value="JSX Component folder with styles.jsx.child.1" />
         <option value="JSX Component folder with styles" />
+        <option value="JSX Component folder.jsx.child.0" />
+        <option value="JSX Component folder" />
       </list>
     </option>
   </component>
@@ -118,7 +107,8 @@
       <workItem from="1757262081850" duration="9059000" />
       <workItem from="1757278768410" duration="312000" />
       <workItem from="1757350188006" duration="1396000" />
-      <workItem from="1757351616780" duration="7705000" />
+      <workItem from="1757351616780" duration="8725000" />
+      <workItem from="1757437353232" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />
@@ -209,7 +199,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/sections/Collections/collectionGroups.js</url>
           <line>377</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
