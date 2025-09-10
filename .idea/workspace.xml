@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/movie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +108,7 @@
       <workItem from="1757350188006" duration="1396000" />
       <workItem from="1757351616780" duration="8725000" />
       <workItem from="1757437353232" duration="11734000" />
+      <workItem from="1757506425421" duration="3383000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />
