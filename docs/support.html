@@ -61,7 +61,7 @@
         <div class="support__body">
           <div class="support__info">
             <h1 class="support__title h2" id="support-title">Welcome to our support page!</h1>
-            <div class="support__descriptiom">
+            <div class="support__description">
               <p>We&#x27;re here to help you with any problems you may be having with our product.</p>
             </div>
           </div>
@@ -83,29 +83,27 @@
           <div class="support__form-cell field">
             <label class="field__label" for="email">Email<!-- --> <span class="field__required-star" aria-hidden="true">*</span></label>
             <div class="field__body">
-              <input class="field__control" type="email" placeholder="exemple@exemple.com" required="">
+              <input class="field__control" type="email" placeholder="example@example.com" required="">
             </div>
           </div>
           <div class="support__form-cell field">
-            <label class="field__label" for="phone-number">Phone number<!-- --> </label>
+            <label class="field__label" for="phone-number">Phone Number<!-- --> </label>
             <div class="field__body">
               <div class="select" data-js-select="">
-                <label class="select__label visually-hidden" id="phone-number-prefix--label" for="phone-number-prefix">Phone number prefix</label>
-                <select class="select__original-control fieldControlClassName" aria-hidden="true" id="phone-number-prefix" tabindex="-1" data-js-select-original-control="">
+                <label class="select__label visually-hidden" id="phone-number-prefix-label" for="phone-number-prefix">Phone number prefix</label>
+                <select class="select__original-control field__control" id="phone-number-prefix" tabindex="-1" aria-hidden="true" data-js-select-original-control="">
                   <option value="+7" selected="">+7</option>
                   <option value="+1">+1</option>
                   <option value="+2">+2</option>
                   <option value="+3">+3</option>
-                  <option value="+4">+4</option>
                 </select>
                 <div class="select__body">
-                  <div class="select__button fieldControlClassName" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="phone-number-prefix--dropdown" aria-labelledby="phone-number-prefix--label" aria-activedescendant="phone-number-prefix-option-0" tabindex="0" data-js-select-button="">+7</div>
-                  <div class="select__dropdown" id="phone-number-prefix--dropdown" role="listbox" aria-labelledby="phone-number-prefix--label" data-js-select-dropdown="">
+                  <div class="select__button field__control" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="phone-number-prefix-dropdown" aria-labelledby="phone-number-prefix-label" aria-activedescendant="phone-number-prefix-option-0" tabindex="0" data-js-select-button="">+7</div>
+                  <div class="select__dropdown" id="phone-number-prefix-dropdown" role="listbox" aria-labelledby="phone-number-prefix-label" data-js-select-dropdown="">
                     <div class="select__option is-selected is-current" id="phone-number-prefix-option-0" role="option" aria-selected="true" data-js-select-option="">+7</div>
                     <div class="select__option" id="phone-number-prefix-option-1" role="option" aria-selected="false" data-js-select-option="">+1</div>
                     <div class="select__option" id="phone-number-prefix-option-2" role="option" aria-selected="false" data-js-select-option="">+2</div>
                     <div class="select__option" id="phone-number-prefix-option-3" role="option" aria-selected="false" data-js-select-option="">+3</div>
-                    <div class="select__option" id="phone-number-prefix-option-4" role="option" aria-selected="false" data-js-select-option="">+4</div>
                   </div>
                 </div>
               </div>
@@ -113,16 +111,16 @@
             </div>
           </div>
           <div class="support__form-cell support__form-cell--wide field">
-            <label class="field__label" for="massege">Massege<!-- --> </label>
+            <label class="field__label" for="message">Message<!-- --> <span class="field__required-star" aria-hidden="true">*</span></label>
             <div class="field__body">
-              <textarea class="field__control" type="textarea" placeholder="Hi why do toy do this like that?"></textarea>
+              <textarea class="field__control" type="textarea" placeholder="Hi! I have a question..." required=""></textarea>
             </div>
           </div>
           <div class="support__form-cell support__form-cell--wide support__form-cell--actions">
             <label class="support__form-agreement checkbox" for="i-agree-with-terms-of-use-and-privacy-policy">
               <input class="checkbox__input" id="i-agree-with-terms-of-use-and-privacy-policy" type="checkbox" required=""><span class="checkbox__label">I agree with Terms of Use and Privacy Policy</span>
             </label>
-            <button class="support__info-submit-button button" type="submit"><span class="button__label">Send Message</span></button>
+            <button class="support__form-submit-button button" type="submit"><span class="button__label">Send Message</span></button>
           </div>
         </form>
       </section>

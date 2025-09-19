@@ -1,27 +1,26 @@
 import './Select.scss'
+import getIdFromTitle from '@/utils/getIdFromTitle'
 import classNames from 'classnames'
-import getIdFromTitle from "@/utils/getIdFromTitle";
 
 const Select = (props) => {
   const {
-    className,
     id = getIdFromTitle(props.label),
     label,
     isLabelHidden = true,
-    /*
-    * Array<{
-    *   value: string
-    *   isSelected?: boolean
-    * }>
-    * */
+    /**
+     * Array<{
+     *   value: string
+     *   isSelected?: boolean
+     * }>
+     */
     options = [],
     buttonClassName,
   } = props
 
   const IDs = {
     originalControl: id,
-    label: `${id}--label`,
-    dropdown: `${id}--dropdown`
+    label: `${id}-label`,
+    dropdown: `${id}-dropdown`,
   }
 
   const selectedOptionIndex = options.findIndex(({ isSelected }) => isSelected) ?? options[0]
@@ -32,10 +31,7 @@ const Select = (props) => {
   }
 
   return (
-    <div
-      className='select'
-      data-js-select=""
-    >
+    <div className="select" data-js-select="">
       <label
         className={classNames('select__label', {
           'visually-hidden': isLabelHidden,
@@ -46,23 +42,22 @@ const Select = (props) => {
         {label}
       </label>
       <select
-        className={classNames("select__original-control", buttonClassName)}
-        aria-hidden={true}
+        className={classNames('select__original-control', buttonClassName)}
         id={IDs.originalControl}
         tabIndex={-1}
+        aria-hidden={true}
         defaultValue={selectedOption.value}
         data-js-select-original-control=""
       >
-        {options.map(({value}, index) => (
-          <option
-            value={value}
-            key={index}
-          >{value}</option>
+        {options.map(({ value }, index) => (
+          <option value={value} key={index}>
+            {value}
+          </option>
         ))}
       </select>
       <div className="select__body">
         <div
-          className={classNames("select__button", buttonClassName)}
+          className={classNames('select__button', buttonClassName)}
           role="combobox"
           aria-expanded={false}
           aria-haspopup="listbox"
@@ -84,7 +79,7 @@ const Select = (props) => {
           {options.map((option, index) => {
             const {
               value,
-              isSelected = false
+              isSelected = false,
             } = option
 
             return (

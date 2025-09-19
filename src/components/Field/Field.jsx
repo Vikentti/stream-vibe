@@ -46,7 +46,7 @@ const Field = (props) => {
       )}
       </label>
       <div className="field__body">
-        {renderBefore?.({fieldControlClassName})}
+        {renderBefore?.(fieldControlClassName)}
         <Component
         className={fieldControlClassName}
         type={type}

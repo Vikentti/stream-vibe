@@ -1,29 +1,24 @@
 import './Support.scss'
-import classNames from 'classnames'
-import {Image} from "minista";
-import Field from "@/components/Field";
-import Checkbox from "@/components/Checkbox";
-import Button from "@/components/Button";
-import Select from "@/components/Select";
+import { Image } from 'minista'
+import Field from '@/components/Field'
+import Checkbox from '@/components/Checkbox'
+import Button from '@/components/Button'
+import Select from '@/components/Select'
 
-const Support = (props) => {
-  const {} = props
-
-  const titleIt = 'support-title'
+const Support = () => {
+  const titleId = 'support-title'
 
   return (
     <section
-      className='support container'
-      aria-labelledby={titleIt}
+      className="support container"
+      aria-labelledby={titleId}
     >
       <div className="support__body">
         <div className="support__info">
-          <h1
-            className="support__title h2"
-            id={titleIt}
-          >Welcome to our support page!
+          <h1 className="support__title h2" id={titleId}>
+            Welcome to our support page!
           </h1>
-          <div className="support__descriptiom">
+          <div className="support__description">
             <p>We're here to help you with any problems you may be having with our product.</p>
           </div>
         </div>
@@ -32,10 +27,7 @@ const Support = (props) => {
           src="/src/assets/images/support/1.png"
         />
       </div>
-      <form
-        className="support__form"
-        action=""
-      >
+      <form className="support__form" action="">
         <Field
           className="support__form-cell"
           label="First Name"
@@ -51,32 +43,34 @@ const Support = (props) => {
           className="support__form-cell"
           label="Email"
           type="email"
-          placeholder="exemple@exemple.com"
+          placeholder="example@example.com"
           isRequired
         />
         <Field
           className="support__form-cell"
-          label="Phone number"
+          label="Phone Number"
           placeholder="(999) 999-99-99"
           inputMode="tel"
           mask="(000) 000-00-00"
-          renderBefore={(fieldControlClassName ) => (<Select
-            label="Phone number prefix"
-            buttonClassName={fieldControlClassName }
-            options={[
-              {value: '+7', isSelected: true},
-              {value: '+1'},
-              {value: '+2'},
-              {value: '+3'},
-              {value: '+4'}
-            ]}
-          />)}
+          renderBefore={(fieldControlClassName) => (
+            <Select
+              label="Phone number prefix"
+              buttonClassName={fieldControlClassName}
+              options={[
+                { value: '+7', isSelected: true },
+                { value: '+1' },
+                { value: '+2' },
+                { value: '+3' },
+              ]}
+            />
+          )}
         />
         <Field
           className="support__form-cell support__form-cell--wide"
-          label="Massege"
+          label="Message"
           type="textarea"
-          placeholder="Hi why do toy do this like that?"
+          placeholder="Hi! I have a question..."
+          isRequired
         />
         <div className="support__form-cell support__form-cell--wide support__form-cell--actions">
           <Checkbox
@@ -85,7 +79,7 @@ const Support = (props) => {
             isRequired
           />
           <Button
-            className="support__info-submit-button"
+            className="support__form-submit-button"
             label="Send Message"
             type="submit"
           />
