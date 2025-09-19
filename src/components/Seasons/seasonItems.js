@@ -1,4 +1,4 @@
-import videoExampleSrc from '@/assets/videos/example.mp4'
+import videoExampleSrc from '@/assets/video/exemple.mp4'
 import videoPosterSrc from '@/assets/images/video-posters/1.jpg'
 
 const seasonItems = [
