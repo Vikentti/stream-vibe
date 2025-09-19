@@ -10,12 +10,22 @@
   animation-timeline: scroll();
   animation-range: 0 100px;
 
+  @mixin scrolling-header-styles {
+    padding-block: 10px;
+    background-color: var(--color-black-08);
+    border-color: var(--color-black-15);
+  }
+
   @keyframes scrolling-header {
     to {
-      padding-block: 10px;
-      background-color: var(--color-black-08);
-      border-color: var(--color-black-15);
+     @include scrolling-header-styles
     }
+  }
+
+  @supports(not (animation-timeline: scroll())) {
+    @include scrolling-header-styles;
+
+    position: sticky !important;
   }
 
   &.is-fixed {
@@ -23,10 +33,15 @@
   }
 
   &__inner {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     column-gap: 16px;
+
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__overlay-menu-dialog {
@@ -54,16 +69,18 @@
       translate: 50%;
     }
 
-    &[open] {
-      display: flex;
+    @include tablet {
+      &[open] {
+        display: flex;
 
-      @starting-style {
+        @starting-style {
+          @include starting-style;
+        }
+      }
+
+      &:not([open]) {
         @include starting-style;
       }
-    }
-
-    &:not([open]) {
-      @include starting-style;
     }
   }
 
@@ -126,6 +143,10 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+
+    @include tablet-above {
+      justify-content: end;
+    }
   }
 
   &__burger-button {

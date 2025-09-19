@@ -1,3 +1,6 @@
+import videoExampleSrc from '@/assets/videos/example.mp4'
+import videoPosterSrc from '@/assets/images/video-posters/1.jpg'
+
 const seasonItems = [
   {
     title: 'Season 01',
@@ -9,9 +12,9 @@ const seasonItems = [
         description: 'On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.',
         duration: '52 min',
         video: {
-          src: '/video/exemple.mp4',
-          poster: '/video-posters/1.jpg',
-        }
+          src: videoExampleSrc,
+          poster: videoPosterSrc,
+        },
       },
       {
         number: '01',
@@ -59,9 +62,9 @@ const seasonItems = [
         description: 'On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.',
         duration: '63 min',
         video: {
-          src: '/video/exemple.mp4',
-          poster: '/video-posters/1.jpg',
-        }
+          src: videoExampleSrc,
+          poster: videoPosterSrc,
+        },
       },
       {
         number: '01',
@@ -105,9 +108,9 @@ const seasonItems = [
         description: 'On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.',
         duration: '42 min',
         video: {
-          src: '/video/exemple.mp4',
-          poster: '/video-posters/1.jpg',
-        }
+          src: videoExampleSrc,
+          poster: videoPosterSrc,
+        },
       },
       {
         number: '01',
@@ -161,9 +164,9 @@ const seasonItems = [
         description: 'On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.',
         duration: '55 min',
         video: {
-          src: '/video/exemple.mp4',
-          poster: '/video-posters/1.jpg',
-        }
+          src: videoExampleSrc,
+          poster: videoPosterSrc,
+        },
       },
       {
         number: '01',
@@ -211,9 +214,9 @@ const seasonItems = [
         description: 'On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.',
         duration: '52 min',
         video: {
-          src: '/video/exemple.mp4',
-          poster: '/video-posters/1.jpg',
-        }
+          src: videoExampleSrc,
+          poster: videoPosterSrc,
+        },
       },
       {
         number: '01',

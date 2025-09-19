@@ -11,7 +11,7 @@ const MovieCard = (props) => {
     imgSrc,
     duration,
     views,
-    href = '/move',
+    href = '/movie',
     released,
     rating,
     season,

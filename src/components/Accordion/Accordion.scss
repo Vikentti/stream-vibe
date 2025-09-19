@@ -52,7 +52,7 @@
     min-height: var(--accordionGroupCounterHeigth);
     padding-right: 50px;
     color: inherit;
-    transition-duration: var(--transition-duration);
+    transition-duration: var(--transition-duration-longer);
 
 
     &::before,
@@ -65,7 +65,7 @@
       height: 2.5px;
       background-color: var(--color-white);
       border-radius: 10px;
-      transition-duration: var(--transition-duration);
+      transition-duration: var(--transition-duration-longer);
 
       @include laptop {
         height: 2px;
@@ -92,7 +92,7 @@
     background-color: var(--color-black-08);
     border: var(--border);
     border-radius: 50%;
-    transition-duration: var(--transition-duration);
+    transition-duration: var(--transition-duration-longer);
   }
 
   &__content {

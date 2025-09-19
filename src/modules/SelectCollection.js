@@ -20,6 +20,8 @@ class Select extends BaseComponent {
     isOnTheRightSide: 'is-on-the-right-side',
   }
 
+  a11yAttributes = { activeDescendant: 'aria-activedescendant' }
+
   initialState = {
     isExpanded: false,
     currentOptionIndex: null,
@@ -39,7 +41,7 @@ class Select extends BaseComponent {
       selectedOptionElement: this.optionElements[this.originalControlElement.selectedIndex],
     })
     setTimeout(this.fixDropdownPosition, 500)
-    this.updateTabIndexes()
+    this.toggleA11yVisibility()
     this.bindEvents()
   }
 
@@ -60,7 +62,10 @@ class Select extends BaseComponent {
       this.buttonElement.textContent = newSelectedOptionValue
       this.buttonElement.classList.toggle(this.stateClasses.isExpanded, isExpanded)
       this.buttonElement.ariaExpanded = isExpanded
-      this.buttonElement.ariaActiveDescendant = this.optionElements[currentOptionIndex].id
+      this.buttonElement.setAttribute(
+        this.a11yAttributes.activeDescendant,
+        this.optionElements[currentOptionIndex].id
+      )
     }
 
     const updateDropdown = () => {
@@ -102,11 +107,13 @@ class Select extends BaseComponent {
     )
   }
 
-  updateTabIndexes(
+  toggleA11yVisibility(
     isMobileDevice = MatchMedia.mobile.matches
   ) {
     this.originalControlElement.tabIndex = isMobileDevice ? 0 : -1
     this.buttonElement.tabIndex = isMobileDevice ? -1 : 0
+    this.originalControlElement.ariaHidden = !isMobileDevice
+    this.buttonElement.ariaHidden = isMobileDevice
   }
 
   toggleExpandedState() {
@@ -132,7 +139,7 @@ class Select extends BaseComponent {
   }
 
   onMobileMatchMediaChange = (event) => {
-    this.updateTabIndexes(event.matches)
+    this.toggleA11yVisibility(event.matches)
   }
 
   onOriginalControlChange = () => {

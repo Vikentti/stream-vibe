@@ -12,32 +12,25 @@
 
   &__pano {
     --heroGradientColorStart: var(--color-black-08);
-    --heroGradientColorEnd: rgb(20 20 20 / 0);
-
-    --heroGradientHeigth: 67.5%;
-
-    --heroGradientTop: linear-gradient(
-        to bottom,
-        var(--heroGradientColorStart) 0%,
-        var(--heroGradientColorEnd) 100%
-    ) 50% 0/100% var(--heroGradientHeigth);
-
-    --heroGradientBottom: linear-gradient(
-        to top,
-        var(--heroGradientColorStart) 0%,
-        var(--heroGradientColorEnd) 100%
-    ) 50% 101%/100% var(--heroGradientHeigth);
+    --heroGradientColorEnd: transparent 67.5%;
 
     @include flex-center;
 
     flex-grow: 1;
     padding-top: fluid(195, 150);
     padding-bottom: fluid(131, 50);
-    background: var(--heroGradientTop),
-    var(--heroGradientBottom),
-    url('../../assets/images/hero/bg.png') 50%/cover;
-    background-repeat: no-repeat;
-
+    background:
+      linear-gradient(
+          to bottom,
+          var(--heroGradientColorStart),
+          var(--heroGradientColorEnd)
+      ),
+      linear-gradient(
+          to top,
+          var(--heroGradientColorStart),
+          var(--heroGradientColorEnd)
+      ),
+      url('@/assets/images/hero/bg.png') 50%/cover;
   }
 
   &__play-button {

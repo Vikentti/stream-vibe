@@ -49,6 +49,7 @@ const MoviesBanner = () => {
         }}
         navigationPosition="abs-bottom"
         hasScrollbarOnMobile={false}
+        navigationJustifyContent="space-between"
       >
         {movieCard.map((movieCard, index) => (
           <MovieBannerCard {...movieCard} key={index} />
