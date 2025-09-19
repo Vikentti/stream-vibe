@@ -4,7 +4,7 @@ import path from "path"
 
 export default defineConfig({
   root: "",
-  base: "/",
+  base: process.env.NODE_ENV === "production" ? "/stream-vibe/" : "./",
   public: "public",
   out: "docs",
   assets: {

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent">
-      <change beforePath="$PROJECT_DIR$/src/components/Seasons/seasonItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seasons/seasonItems.js" afterDir="false" />
-    </list>
+    <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +122,7 @@
       <workItem from="1757953542685" duration="2768000" />
       <workItem from="1757956407500" duration="2645000" />
       <workItem from="1758039082457" duration="12812000" />
-      <workItem from="1758285103316" duration="7565000" />
+      <workItem from="1758285103316" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />
