@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="new section- tabs, js tabs logic and baseComponent" />
+    <list default="true" id="44873c63-59cd-4a60-a6ed-e0b87d24ac6e" name="Changes" comment="fix path">
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/movies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/shows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/subscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/subscriptions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seasons/seasonItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seasons/seasonItems.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +135,7 @@
       <workItem from="1757953542685" duration="2768000" />
       <workItem from="1757956407500" duration="2645000" />
       <workItem from="1758039082457" duration="12812000" />
-      <workItem from="1758285103316" duration="8263000" />
+      <workItem from="1758285103316" duration="14057000" />
     </task>
     <task id="LOCAL-00001" summary="header, footer, hero section finished, started section categories">
       <option name="closed" value="true" />
@@ -156,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757186724060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix path">
+      <option name="closed" value="true" />
+      <created>1758311329120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758311329120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +201,8 @@
     <MESSAGE value="new section == device" />
     <MESSAGE value="new section == question/ accordion finished" />
     <MESSAGE value="new section- tabs, js tabs logic and baseComponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="new section- tabs, js tabs logic and baseComponent" />
+    <MESSAGE value="fix path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
