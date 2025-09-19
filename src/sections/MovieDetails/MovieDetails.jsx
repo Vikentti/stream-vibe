@@ -110,7 +110,9 @@ const MovieDetails = (props) => {
         </div>
         <div className="movie-details__panel">
           <header className="movie-details__panel-header">
-            <h3 className="movie-details__title">Cast</h3>
+            <h3 className="movie-details__title">
+              Cast
+            </h3>
             <SliderNavigation
               id={castSliderNavigationId}
               hasPagination={false}
@@ -120,7 +122,7 @@ const MovieDetails = (props) => {
           </header>
           <Slider
             navigationTargetElementId={castSliderNavigationId}
-            hasScrollBarOnMobile
+            hasScrollbarOnMobile={false}
             sliderParams={{
               slidesPerView: 'auto',
               spaceBetween: 10,

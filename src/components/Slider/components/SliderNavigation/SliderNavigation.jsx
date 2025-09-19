@@ -11,13 +11,16 @@ const SliderNavigation = (props) => {
      * '' (default) | 'tile' | 'rounded'
      */
     mode = '',
-    /*
-    * '' (default) | 'abs-bottom'
-    * */
+    /**
+     * '' (default) | 'abs-bottom'
+     */
     position = '',
+    /**
+     * '' (default) | 'space-between'
+     */
+    justifyContent = '',
     isHiddenMobile,
     buttonMode = 'black-10',
-    justifyContent
   } = props
 
   return (

@@ -14,19 +14,19 @@ const Header = (props) => {
   const menuItems = [
     {
       label: 'Home',
-      href: '/',
+      href: './',
     },
     {
       label: 'Movies & Shows',
-      href: '/movies',
+      href: './movies',
     },
     {
       label: 'Support',
-      href: '/support',
+      href: './support',
     },
     {
       label: 'Subscriptions',
-      href: '/subscriptions',
+      href: './subscriptions',
     },
   ]
 
