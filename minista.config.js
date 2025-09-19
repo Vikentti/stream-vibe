@@ -141,5 +141,7 @@ export default defineConfig({
       indent_size: 2,
     },
   },
-  vite: {},
+  vite: {
+    base: './',
+  },
 })
